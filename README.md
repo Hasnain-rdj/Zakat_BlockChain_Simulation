@@ -65,12 +65,7 @@ pip install streamlit
 
 ## 🎮 How to Run
 
-1. **Navigate to the project directory:**
-   ```bash
-   cd "d:\Coding\Sem_7\BlockChain\Assignement_1"
-   ```
-
-2. **Run the Streamlit application:**
+1. **Run the Streamlit application:**
    ```bash
    streamlit run main.py
    ```
