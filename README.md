@@ -8,12 +8,12 @@ This project implements a blockchain system from scratch using only fundamental 
 
 ## 🎯 Key Features
 
-### ✅ **Blockchain Structure **
+### ✅ **Blockchain Structure**
 - Pure Python implementation using only dictionaries and lists
 - Each block contains: transactions, hash, previous hash, timestamp, roll number seed
 - Genesis block initialization with 200 coins starting balance
 
-### ✅ **Hashing & Seed Key **
+### ✅ **Hashing & Seed Key**
 - SHA-256 hashing with student roll number as unique seed key
 - Prevents hash collisions between different students
 - Ensures blockchain uniqueness per student
@@ -23,7 +23,7 @@ This project implements a blockchain system from scratch using only fundamental 
 - Consistent application across all transactions
 - Real-time balance updates
 
-### ✅ **Transaction History **
+### ✅ **Transaction History**
 - Complete ledger of all transactions
 - Traceable transaction records with timestamps
 - Detailed transaction information (sender, amount, balance, description)
