@@ -8,42 +8,42 @@ This project implements a blockchain system from scratch using only fundamental 
 
 ## 🎯 Key Features
 
-### ✅ **Blockchain Structure (20 marks)**
+### ✅ **Blockchain Structure **
 - Pure Python implementation using only dictionaries and lists
 - Each block contains: transactions, hash, previous hash, timestamp, roll number seed
 - Genesis block initialization with 200 coins starting balance
 
-### ✅ **Hashing & Seed Key (15 marks)**
+### ✅ **Hashing & Seed Key **
 - SHA-256 hashing with student roll number as unique seed key
 - Prevents hash collisions between different students
 - Ensures blockchain uniqueness per student
 
-### ✅ **Zakat Calculation (15 marks)**
+### ✅ **Zakat Calculation**
 - Accurate 2.5% Zakat deduction from current balance
 - Consistent application across all transactions
 - Real-time balance updates
 
-### ✅ **Transaction History (15 marks)**
+### ✅ **Transaction History **
 - Complete ledger of all transactions
 - Traceable transaction records with timestamps
 - Detailed transaction information (sender, amount, balance, description)
 
-### ✅ **Block Validation & Immutability (15 marks)**
+### ✅ **Block Validation & Immutability**
 - Hash verification for all blocks in the chain
 - Previous hash validation to detect tampering
 - Complete blockchain integrity checks
 
-### ✅ **Code Modularity (10 marks)**
+### ✅ **Code Modularity**
 - Clean class-based architecture
 - Reusable methods and functions
 - Separation of concerns
 
-### ✅ **Documentation & Comments (5 marks)**
+### ✅ **Documentation & Comments**
 - Comprehensive inline documentation
 - Meaningful variable and function names
 - Detailed docstrings for all methods
 
-### ✅ **Efficiency & Execution (5 marks)**
+### ✅ **Efficiency & Execution**
 - Error-free implementation
 - Optimized performance
 - User-friendly Streamlit interface
@@ -221,25 +221,5 @@ Blockchain Status: ✅ Valid
 4. **Streamlit not found**
    - Run: `pip install streamlit`
    - Ensure Python and pip are properly installed
-
-## 📝 Assignment Compliance
-
-This implementation fully complies with all assignment requirements:
-
-- ✅ **No external blockchain libraries used**
-- ✅ **Only fundamental data structures (lists & dictionaries)**
-- ✅ **Roll number seed key for hash uniqueness**
-- ✅ **Accurate 2.5% Zakat calculation**
-- ✅ **Complete transaction history maintenance**
-- ✅ **Block validation and immutability**
-- ✅ **Proper code documentation**
-- ✅ **Modular and efficient implementation**
-
-## 👨‍💻 Author
-
-Created for Blockchain Assignment 1 - Semester 7
-Implementation meets all specified grading criteria and requirements.
-
----
 
 **Note**: This is an educational simulation. In a production blockchain, additional security measures and consensus mechanisms would be required.
